@@ -1,139 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/615635ce39.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <header>
-        <nav class="nav">
-            <div class="logo">
-                <span>Nikhil</span>
-            </div>
-            <div class="link">
-                <a href="#">Home</a>
-                <a href="#">Project</a>
-                <a href="#">Personal Info</a>
-                <a href="#">Contact</a>
-            </div>
-            <div class="register">
-                <a href="#">Register</a>
-            </div>
-        </nav>
-        <div class="hero__section">
-            <div class="hero__section__left">
-                <h1>Wild life Conservation</h1>
-                <p>The clock is ticking!!!! <br> As it is the most important time for man to protect its mother
-                    nature!!!.</p>
-            </div>
-            <div class="hero__section__right">
-                <img src="https://images.unsplash.com/photo-1685596411704-56c5dff3b84c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-                    alt="lion">
-            </div>
-        </div>
-    </header>
-    <section class="container">
-
-        <h1 class="heading">Endengered Species</h1>
-        
-        <div class="box-container">
-
-            <div class="card">
-                <div class="img-section img-one"></div>
-                    <div class="content">
-                        <h3>African Elephant</h3>
-                        <p><span>African Elephants</span> greatest threat ephants is poaching for the illegal ivory trade, while Asian elephant populations are most at risk from habitat loss and resulting human-elephant conflict.</p>
-                        <a href="#" class="btn">Read More</a>
-                    </div>
-            </div>
-    
-            <div class="card">
-                <div class="img-section img-two"></div>
-                    <div class="content">
-                        <h3>White Tiger</h3>
-                        <p>The <span>White Tigers</span> or bleached tiger is a leucistic pigmentation variant of the Mainland tiger. It is found in the Indian states of Madhya Pradesh especially in the former State of Rewa.</p>
-                        <a href="#" class="btn">Read More</a>
-                    </div>
-            </div>
-
-            <div class="card">
-                <div class="img-section img-three"></div>
-                    <div class="content">
-                        <h3>Aisatic Lion</h3>
-                        <p>The <span>Asiatic lion's </span>fur ranges in colour from ruddy-tawny, heavily speckled with black, to sandy or buffish grey, sometimes with a silvery sheen in certain lighting.</p>
-                        <a href="#" class="btn">Read More</a>
-                    </div>
-            </div>
-         
-        </div>
-    </section>
-    <section class="form-section">
-        <div class="form-left">
-            <form >
-                <h2>Donate here</h2>
-                <div class="inputBox">
-                    <input type="text" required="required">
-                    <span>Your Name</span>
-                    <i></i>
-                </div>
-                <div class="inputBox">
-                    <input type="text" required="required">
-                    <span>Job/Title</span>
-                    <i></i>
-                </div>
-                <div class="inputBox">
-                    <input type="number" required="required">
-                    <span>Amount</span>
-                    <i></i>
-                </div>
-                <div class="member">
-                    <a href="#">Become a Member</a>
-                </div>
-                <input type="submit" value="Donate">
-            </form>
-        </div>
-        <div class="form-right">
-            <div class="heading">Supported by </div>
-            <div class="form-right-img">
-                <img src="download (1).png" alt="">
-                <img src="download (4).jpg" alt="">
-                <img src="download(5).png" alt="">
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="tags">
-            <h4>Company</h4>
-            <ul>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="tags">
-                <h4>What We Do</h4>
-                <ul>
-                <li><a href="#">Stories</a></li>
-                <li><a href="#">Articles</a></li>
-                <li><a href="#">News</a></li>
-            </ul>
-        </div>
-        <div class="tags">
-            <h4>Socials Links</h4>
-            <div class="icons">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-            </div>
-        </div>
-    </footer>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="form">
+      <input
+        type="text"
+        class="input"
+        placeholder="Enter your task"
+        autocomplete="off"
+      />
+      <ul class="list">
+        <!-- <li>
+          Buy Milk <i class="fas fa-check-square"></i
+          ><i class="fas fa-trash"></i>
+        </li>
+        <li class="checked">
+          Call David <i class="fas fa-check-square"></i
+          ><i class="fas fa-trash"></i>
+        </li> -->
+      </ul>
+    </form>
+    <script src="index.js"></script>
+  </body>
 </html>
